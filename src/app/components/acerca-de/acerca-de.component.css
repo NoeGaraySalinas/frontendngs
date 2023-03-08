@@ -1,0 +1,37 @@
+div {
+    background-color: #ffdead;
+}
+#nombre {
+    margin-top: 5%;
+}
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+         width: 15%; 
+         border-radius: 100%;
+         box-shadow: 3px 3px 3px white;
+         left: 3%;
+         top: 500px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+         width: 30%; 
+         border-radius: 100%;
+         box-shadow: 3px 3px 3px white;
+         left: 35%;
+         top: 630px;
+    }
+}
+.row {
+    padding: 2%;
+}
+#textoadm {
+    border-width: 7px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px; /* Change this value as per your requirement */
+    overflow: hidden;
+  }
+  
