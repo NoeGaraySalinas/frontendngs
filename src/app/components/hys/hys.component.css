@@ -1,0 +1,11 @@
+div {
+    background-color: #ffdead;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    background: #ffdead;
+    font-family: impact;
+    font-size: 36px;
+    line-height: 70%;
+    letter-spacing: 4px;
+    text-shadow: -2px -2px 0px #ffffff(255, 255, 255), 2px -2px 0px #ffffff, -2px 2px 0px rgb(255, 255, 255), 2px 2px 0px #ffffff;
+        }
