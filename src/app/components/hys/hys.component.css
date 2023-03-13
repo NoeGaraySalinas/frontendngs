@@ -1,11 +1,14 @@
-div {
-    background-color: #ffdead;
+h1 {
     text-align:center;
-    color: rgb(255, 255, 255);
-    background: #ffdead;
+    color: rgb(175, 81, 81);
+    background: #ffeac9;
     font-family: impact;
     font-size: 36px;
     line-height: 70%;
     letter-spacing: 4px;
-    text-shadow: -2px -2px 0px #ffffff(255, 255, 255), 2px -2px 0px #ffffff, -2px 2px 0px rgb(255, 255, 255), 2px 2px 0px #ffffff;
-        }
+    text-decoration: dashed;
+}
+.row {
+    background-color: #ffeac9;
+    padding: 20px;
+}
