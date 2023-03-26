@@ -6,17 +6,14 @@ package com.portfolio.ngs.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-/**
- *
- * @author Noelia
- */
+
 public class LoginUsuario {
     @NotBlank
     private String nombreUsuario;
     @NotBlank
     private String password;
     
-    //getter y setter
+    //Getter & Setter
 
     public String getNombreUsuario() {
         return nombreUsuario;

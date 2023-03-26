@@ -25,7 +25,7 @@ public class Usuario {
     @NotNull
     private String nombre;
     @NotNull
-    @Column (unique = true)
+    @Column(unique = true)
     private String nombreUsuario;
     @NotNull
     private String email;
@@ -35,8 +35,7 @@ public class Usuario {
     @JoinTable(name = "usuario_rol", joinColumns = @JoinColumn(name ="usuario_id"), inverseJoinColumns = @JoinColumn(name = "rol_id"))
     private Set<Rol> roles = new HashSet<>();
     
-    
-    //constructores
+    //Constructores
 
     public Usuario() {
     }
@@ -47,7 +46,8 @@ public class Usuario {
         this.email = email;
         this.password = password;
     }
-    //getter y setter
+    
+    //Getter Y Setter
 
     public int getId() {
         return id;
