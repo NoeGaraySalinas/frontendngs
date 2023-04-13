@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-expURL = 'http://localhost:8090/explab/'
+expURL = 'https://portfoliowebap.web.app/'
 
   constructor(private httpClient: HttpClient) { }
 
