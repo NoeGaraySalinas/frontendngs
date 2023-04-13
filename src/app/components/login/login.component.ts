@@ -4,7 +4,6 @@ import { LoginUsuario } from 'src/app/model/login-usuario';
 import { AuthService } from 'src/app/service/auth.service';
 import { TokenService } from 'src/app/service/token.service';
 
-
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -21,16 +20,13 @@ export class LoginComponent implements OnInit {
   errMsj!: string;
 
   constructor(private tokenService: TokenService, private authService: AuthService, private router: Router) { }
+
   ngOnInit(): void {
     if(this.tokenService.getToken()){
       this.isLogged = true;
       this.isLogginFail = false;
       this.roles = this.tokenService.getAuthorities();
     }
-  }
-
-  onCrearCuenta() {
-    this.router.navigate(['/registro']); // redirige al componente registro
   }
 
   onLogin(): void{
@@ -51,6 +47,5 @@ export class LoginComponent implements OnInit {
         
       })
   }
-
 
 }

@@ -2,15 +2,18 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { persona } from '../model/persona.model';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class PersonaService {
- URL = 'https://portfoliowebap.web.app/';
+  URL = environment.URL + 'personas/';
+
   constructor(private http: HttpClient) { }
 
-  public getPersona(): Observable <persona> {
-    return this.http.get<persona>(this.URL+ '/traer/perfil');
+  public getPersona(): Observable<persona>{
+    return this.http.get<persona>(this.URL+ 'traer/perfil');
   }
 }
