@@ -11,7 +11,7 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class AuthService {
 
-authURL = 'https://portfoliowebap.web.app/auth/';
+authURL = 'https://backendngs-production.up.railway.app/';
 
   URL = environment.URL + 'auth/';
 
