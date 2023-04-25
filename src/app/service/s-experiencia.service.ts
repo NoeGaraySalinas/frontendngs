@@ -9,8 +9,6 @@ import { environment } from 'src/environments/environment';
 })
 export class SExperienciaService {
 
-  expURL = 'https://backendngs-production.up.railway.app/explab/';
-
   URL = environment.URL + 'explab/';
 
 
