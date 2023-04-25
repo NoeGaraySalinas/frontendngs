@@ -9,6 +9,9 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
+
+   skillURL = 'https://backendngs-production.up.railway.app/skill/';
+
   URL = environment.URL + 'skill/';
   
   constructor(private httpClient: HttpClient) { }
