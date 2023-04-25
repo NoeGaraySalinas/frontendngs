@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class EducacionService {
 
-  edURL = 'https://portfoliowebap.web.app/educacion/';
+  edURL = 'https://backendngs-production.up.railway.app/educacion/';
 
   URL = environment.URL + 'educacion/';
 
