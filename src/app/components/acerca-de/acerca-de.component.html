@@ -17,15 +17,7 @@
         comprender todos los procesos de desarrollo e inovacion en este rubro, me interesa mucho como influye en la
         sociedad por lo que me gustaría participar y aportar ,desde mi posición, en ideas y proyectos innovadores que
         faciliten el uso y consumo de tecnologías que satisfagan a la persona común.</p>
-      <button class="btn btn-light" onclick="mostrarFormulario()"><i class="bi bi-pencil-fill"></i></button>
+      <button class="btn btn-success"><i class="bi bi-pencil-fill"></i></button>
     </span>
   </div>
 </div>
-
-<script>
-  function mostrarFormulario() {
-    var descripcion = document.getElementById("descripcion");
-    var formulario = '<form><textarea name="descripcion" rows="5" cols="50">' + descripcion.innerHTML + '</textarea><br><input type="submit" value="Guardar cambios"></form>';
-    descripcion.innerHTML = formulario;
-  }
-</script>
