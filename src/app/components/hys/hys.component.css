@@ -1,6 +1,23 @@
-.row{
-    background-color: #a1b5cb;
-    padding: 20px;
+div{
+    background-color: #ffeac9;
+}
+
+h1,h3{
+    display: inline;
+}
+
+h1 {
+    color: rgb(175, 81, 81);
+    background: #ffeac9;
+    font-family: impact;
+    font-size: 36px;
+    line-height: 70%;
+    letter-spacing: 4px;
+    text-decoration: dashed;
+}
+.row {
+    background-color: #ffeac9;
+    padding: 50px;
 }
 
 .circulo{
