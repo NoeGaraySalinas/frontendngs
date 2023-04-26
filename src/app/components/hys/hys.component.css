@@ -14,6 +14,7 @@ h1 {
     line-height: 70%;
     letter-spacing: 4px;
     text-decoration: dashed;
+    padding-bottom: 20px;
 }
 .row {
     background-color: #ffeac9;
@@ -24,4 +25,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#botonas{
+    padding: 20px;
 }
