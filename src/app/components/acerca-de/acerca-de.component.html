@@ -4,9 +4,8 @@
     <button class="btn btn-success"><i class="bi bi-pencil-fill"></i></button>
   </div>
   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-    <p id="nombre">Garay Salinas, Noelia Ayelen <button class="btn btn-success"><i
-          class="bi bi-pencil-fill"></i></button></p>
-    <p>Fullstack web developer jr. <button class="btn btn-success"><i class="bi bi-pencil-fill"></i></button></p>
+    <p id="nombre">Garay Salinas, Noelia Ayelen <button class="btn btn-success"><i class="bi bi-pencil-fill"></i> EDITAR</button></p>
+    <p>Fullstack web developer jr. <button class="btn btn-success"><i class="bi bi-pencil-fill"></i> EDITAR</button></p>
   </div>
   <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
     <span>
@@ -19,17 +18,7 @@
         comprender todos los procesos de desarrollo e inovacion en este rubro, me interesa mucho como influye en la
         sociedad por lo que me gustaría participar y aportar ,desde mi posición, en ideas y proyectos innovadores que
         faciliten el uso y consumo de tecnologías que satisfagan a la persona común.</p>
-      <button onclick="mostrarFormulario()" class="btn btn-success"><i class="bi bi-pencil-fill"></i></button>
+        <button class="btn btn-success"><i class="bi bi-pencil-fill"></i> EDITAR</button>
     </span>
   </div>
 </div>
-
-<script>
-  function mostrarFormulario() {
-    var descripcion = document.getElementById("descripcion");
-    var contenido = descripcion.innerHTML;
-    var formulario = '<form><textarea name="descripcion" rows="5" cols="50">' + contenido + '</textarea><br><input type="submit" value="Guardar cambios"></form>';
-    descripcion.innerHTML = formulario;
-  }
-
-</script>
